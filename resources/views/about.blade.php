@@ -22,9 +22,9 @@
     </head>
     <body class="antialiased">
 
-    <a href="/">回首頁</a>
+    <a href="{{route('home.index')}}">回首頁</a>
     <br>
-    <a href="/news">最新消息</a>
+    <a href="{{route('news.index')}}">最新消息</a>
 
     </body>
 </html>

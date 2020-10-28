@@ -15,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])
+    ->name('home.index');
 
-Route::get('/about',[AboutController::class,'index']);
+Route::get('/about',[AboutController::class,'index'])
+    ->name('about.index');
 
-Route::get('/news',[NewsController::class,'index']);
+Route::get('/news',[NewsController::class,'index'])
+    ->name('news.index');
 
 

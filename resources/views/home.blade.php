@@ -23,9 +23,9 @@
 
     <body class="antialiased">
 
-    <a href="/about">關於本站</a>
+    <a href="{{route('about.index')}}">關於本站</a>
     <br>
-    <a href="/news">最新消息</a>
+    <a href="{{route('news.index')}}">最新消息</a>
 
     </body>
 </html>
